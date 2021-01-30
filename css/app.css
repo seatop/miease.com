@@ -1,0 +1,22 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+ul{list-style-type: none;}
+body{text-align: center;font-size: 15px;background: #468;}
+#all{width: 320px;height:auto;margin: 5px auto;background: #ddd;padding-top: 5px;padding-bottom: 5px;}
+#app-title{width:280px;margin: 0px 5px;padding: 15px;background: #345;clear: both;color: #ABC;font-size: 16px;}
+#app-title a{color: #ABC;font-size: 16px;}
+#app-left{width: 310px;margin:5px;}
+#app-left li{background: #789;margin-bottom: 3px;padding:10px;font-size: 16px;color: #bcd;cursor: pointer;}
+#app-right{width: 310px;margin:5px;}
+#s_all{float:left;margin-bottom:5px;}
+.s_font{float: left;width:20px;height:20px;padding: 12px 5px;border: 1px solid #ccc;font-size: 15px;margin: 1px;background: #fff;font-weight: bolder;}
+.n_font{float: left;width:20px;height:20px;padding: 12px 5px;border: 1px solid #ccc;font-size: 15px;margin: 1px;background: #fff;font-weight: bolder;}
+#p_ss{width: 310px;font-size: 15px;}
+#p_ss input{padding: 5px;font-size: 13px;width: 180px;}
+#p_ss li{padding: 2px;margin:6px 0;}
+#p_ss h1{font-size: 15px;padding:10px 5px;cursor: pointer;color:red;border:0px solid red;background:#eee;}
+#ps_l{padding: 10px;font-size: 15px;}
+#p_ss h3{font-size: 15px;padding: 10px 5px;color: red;}
+#about{cursor:pointer;padding:10px;}
+#aboutt{font-size:18px;}
+.aboutl{text-align:left;}
