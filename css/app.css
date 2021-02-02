@@ -1,24 +1,29 @@
-*{margin: 0;padding: 0;}
-a{text-decoration: none;}
-ul{list-style-type: none;}
-body{text-align: center;font-size: 15px;background: #468;}
-#all{width: 320px;height:auto;margin: 5px auto;background: #ddd;padding-top: 5px;padding-bottom: 5px;}
-#app-title{width:280px;margin: 0px 5px;padding: 15px;background: #345;clear: both;color: #ABC;font-size: 16px;}
-#app-title a{color: #ABC;font-size: 16px;}
-#app-left{width: 310px;margin:5px;}
-#app-left li{background: #789;margin-bottom: 3px;padding:10px;font-size: 16px;color: #bcd;cursor: pointer;}
-#app-right{width: 310px;margin:5px;}
-#s_all{float:left;margin-bottom:5px;}
+*, h1 {margin: 0;padding: 0;}
+a {text-decoration: none;}
+ul {list-style-type: none;}
+
+body {text-align: center;font-size: 100%;background: #468;}
+
+
+header {background-color: #345;display: flex;align-items: center;justify-content: center; height: 9em;}
+header h1 {font-size: 2em;}
+header a {color: #fdf; }
+nav {background-color: #333;font-size: 1em;font-weight: bold;min-width: 400px;height: 3em;margin-bottom: 100px;}
+nav li {float:left;width:25%;color: #dad;line-height: 3em; }
+nav ul {max-width: 600px;margin: auto;}
+footer {clear: both;padding: 50px;cursor:pointer;color: #ccf;}
+
+#s_all{width: 408px;margin:60px auto;}
 .s_font{float: left;width:20px;height:20px;padding: 12px 5px;border: 1px solid #ccc;font-size: 15px;margin: 1px;background: #fff;font-weight: bolder;}
 .n_font{float: left;width:20px;height:20px;padding: 12px 5px;border: 1px solid #ccc;font-size: 15px;margin: 1px;background: #fff;font-weight: bolder;}
-#p_ss{width: 310px;font-size: 15px;}
+#p_ss,#p_ssa {font-size: 1.1em;color: #cff;height: 150px;}
+#btps,#btpsk {width: 320px;margin: 20px auto;}
 #p_ss input{padding: 5px;font-size: 13px;width: 180px;}
-#p_ss li{padding: 2px;margin:6px 0;}
-#p_ss h1{font-size: 15px;padding:10px 5px;cursor: pointer;color:red;border:0px solid red;background:#eee;}
+#p_ss li ,#p_ssa li{padding: 2px;margin:6px 0;}
+#p_ss h1{font-size: 15px;padding:10px 5px;cursor: pointer;color:#fdf;border:0px solid red;background:#345;}
 #ps_l{padding: 10px;font-size: 15px;}
-#p_ss h3{font-size: 15px;padding: 10px 5px;color: red;}
-#about{cursor:pointer;padding:10px;}
-#aboutt{font-size:18px;}
-.aboutl{text-align:left;}
-h1{margin-top:100px;font-size:100px;color: #ccc;}
-h2,h2 a{color:#aaa;}
+#p_ss h3{font-size: 15px;padding: 10px 5px;color: #fff;}
+#p_ssa {height: 380px;width: 370px;margin: auto;}
+#aboutt{font-size:1.1em;font-weight: bold;line-height: 5em;}
+.aboutl{text-align: left;}
+
