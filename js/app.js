@@ -70,9 +70,9 @@ $(function(){
 		$("#btpsk").html("确定");
 	});
     
-    $("footer").click(function(){
+    $("footer h3").click(function(){
     	$("nav li").css({"background":"#333","color":"#dad"});
-        outabout='<div id="p_ssa"><ul><li id="aboutt">关于</li><li class="aboutl">用记忆中的关键词生成无意义密码。</li><li class="aboutl">纯JS程序，MD5多重加密，可存至本地运行。</li><li class="aboutl">密码关键词为空时，生成随机密码。</li><li class="aboutl">附加关键词可用于区分不同的用途。</li><li class="aboutl">本程序仅供参考，不承担任何责任。</li><li class="aboutl">源码托管：github.com/seatop/miease.com</li><li class="aboutl">联系邮箱：seatop@sina.cn</li></ul></div>';
+        outabout='<div id="p_ssa"><ul><li id="aboutt"><h3>关于 MiEase.com 生成安全密码</h3></li><li class="aboutl">用记忆中的关键词生成无意义密码。</li><li class="aboutl">纯JS程序，MD5多重加密，可存至本地运行。</li><li class="aboutl">密码关键词为空时，生成随机密码。</li><li class="aboutl">附加关键词可用于区分不同的用途。</li><li class="aboutl">本程序仅供参考，不承担任何责任。</li><li class="aboutl">源码托管：github.com/seatop/miease.com</li><li class="aboutl">联系邮箱：seatop@sina.cn</li></ul></div>';
 		$("#app-content").html(outabout);        
     });
 
