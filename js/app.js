@@ -150,7 +150,12 @@ $(function(){
 	$(document).delegate("#btps","click",function(){
 		if ($("#ps1").val()==$("#ps2").val()) {
 			pswd=$("#ps1").val();
-			$("#btps").html('密码关键词输入成功！');		
+			if(pswd == ""){
+				$("#btps").html('密码关键词为空！');		
+			}else{
+				$("#btps").html('密码关键词输入成功！');		
+			}
+			
 		} else{
 			$("#btps").html('两次输入的密码不一致！');
 			pswd="";
@@ -159,7 +164,11 @@ $(function(){
 
 	$(document).delegate("#btpsk","click",function(){		
 		pswdk=$("#psk").val();
-		$("#btpsk").html('附加关键词输入成功！');	
+		if(pswdk == ""){
+			$("#btpsk").html('附加关键词为空！');	
+		}else{
+			$("#btpsk").html('附加关键词输入成功！');	
+		}		
 	});
 
 	$("nav li").click(function(){
