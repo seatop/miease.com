@@ -22,10 +22,12 @@ footer h3 {cursor:pointer;font-size: 1em;width: 12em;margin: auto;font-weight: n
 #p_ss input{padding: 5px;font-size: 13px;width: 180px;}
 #p_ss li ,#p_ssa li{padding: 2px;margin:6px 0;}
 #p_ss h1{font-size: 15px;padding:10px 5px;cursor: pointer;color:#fdf;border:0px solid red;background:#345;}
+#p_ss h1 a {color:#fdf;}
 #ps_l{padding: 10px;font-size: 15px;}
 #p_ss h3{font-size: 15px;padding: 10px 5px;color: #fff;}
 #p_ssa {height: 380px;width: 370px;margin: auto;}
 #aboutt h3{font-size:1.1em;font-weight: bold;margin-bottom: 20px;}
+.aboutl a {color:#fff;}
 .aboutl{text-align: left;}
 
 @media only screen and (max-width: 800px){
