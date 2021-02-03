@@ -6,7 +6,7 @@ $(function(){
 	var pswdl=12;
 
 	function randomChar (size) {
-		var x="23456789abcdefghijkmnpqrstuvwxyzABCDEFGHIJKLMNPQRSTUVWXYZ";
+		var x="!@#$%^&*()_+-={}[]0123456789abcdefghijkmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		var tmp="";
 		for(var i=0;i<size;i++){
 			tmp +=x.charAt(Math.ceil(Math.random()*100000000)%x.length);

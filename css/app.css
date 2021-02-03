@@ -8,12 +8,12 @@ body {text-align: center;font-size: 100%;background: #468;}
 header {background-color: #345;display: flex;align-items: center;justify-content: center; height: 9em;}
 header h1 {font-size: 2em;}
 header a {color: #fdf; }
-nav {background-color: #333;font-size: 1em;font-weight: bold;min-width: 400px;height: 3em;margin-bottom: 100px;}
+nav {background-color: #333;font-size: 1em;font-weight: bold;min-width: 380px;height: 3em;margin-bottom: 100px;}
 nav li {float:left;width:25%;color: #dad;line-height: 3em; }
-nav ul {max-width: 600px;margin: auto;}
+nav ul {max-width:800px;margin: auto;}
 footer {clear: both;padding: 50px;cursor:pointer;color: #ccf;}
 
-#s_all{width: 408px;margin:60px auto;}
+#s_all{width: 612px;margin:60px auto;}
 .s_font{float: left;width:20px;height:20px;padding: 12px 5px;border: 1px solid #ccc;font-size: 15px;margin: 1px;background: #fff;font-weight: bolder;}
 .n_font{float: left;width:20px;height:20px;padding: 12px 5px;border: 1px solid #ccc;font-size: 15px;margin: 1px;background: #fff;font-weight: bolder;}
 #p_ss,#p_ssa {font-size: 1.1em;color: #cff;height: 150px;}
@@ -26,4 +26,8 @@ footer {clear: both;padding: 50px;cursor:pointer;color: #ccf;}
 #p_ssa {height: 380px;width: 370px;margin: auto;}
 #aboutt{font-size:1.1em;font-weight: bold;line-height: 5em;}
 .aboutl{text-align: left;}
+
+@media only screen and (max-width: 800px){
+	#s_all{width: 306px;}
+}
 
